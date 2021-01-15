@@ -1,0 +1,69 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer__menuList {
+  display: flex;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.footer__menuList-github {
+  background-image: url("../images/github-alt-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-linkedin {
+  background-image: url("../images/linkedin-in-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-mail {
+  background-image: url("../images/envelope-solid.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-twitter {
+  background-image: url("../images/twitter-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-codepen {
+  background-image: url("../images/codepen-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-access {
+  padding: 10px;
+  text-decoration: none;
+}
